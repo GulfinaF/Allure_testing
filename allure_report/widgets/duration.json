@@ -1,0 +1,11 @@
+[ {
+  "uid" : "24ccfd4d4f316b1f",
+  "name" : "test_go_to_login_page_register_and_find_success_message",
+  "time" : {
+    "start" : 1576329916968,
+    "stop" : 1576329930163,
+    "duration" : 13195
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

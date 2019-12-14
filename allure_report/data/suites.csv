@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Dec 14 16:25:16 MSK 2019","Sat Dec 14 16:25:30 MSK 2019","13195","allure_testing","test_make_report","","","","test_go_to_login_page_register_and_find_success_message",""

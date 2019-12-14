@@ -1,0 +1,101 @@
+{
+  "uid" : "dd852cad5081cc3b",
+  "name" : "test_go_to_login_page_register_and_find_success_message",
+  "fullName" : "allure_testing.test_make_report#test_go_to_login_page_register_and_find_success_message",
+  "historyId" : "cd1da8a9508702d63ebb6b42f2ba65f9",
+  "time" : {
+    "start" : 1576325116975,
+    "stop" : 1576325116991,
+    "duration" : 16
+  },
+  "status" : "broken",
+  "statusMessage" : "NameError: name 'find_element_by_id' is not defined",
+  "statusTrace" : "browser = None\n\n    def test_go_to_login_page_register_and_find_success_message(browser):\n        link = \"http://selenium1py.pythonanywhere.com\"\n>       login_link=find_element_by_id('#login_link')\nE       NameError: name 'find_element_by_id' is not defined\n\ntest_make_report.py:7: NameError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1576325116975,
+      "stop" : 1576325116975,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "NameError: name 'find_element_by_id' is not defined",
+    "statusTrace" : "browser = None\n\n    def test_go_to_login_page_register_and_find_success_message(browser):\n        link = \"http://selenium1py.pythonanywhere.com\"\n>       login_link=find_element_by_id('#login_link')\nE       NameError: name 'find_element_by_id' is not defined\n\ntest_make_report.py:7: NameError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ecd5c76e3dbc9ed7",
+      "name" : "stdout",
+      "source" : "ecd5c76e3dbc9ed7.txt",
+      "type" : "text/plain",
+      "size" : 56
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1576325117053,
+      "stop" : 1576325117053,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "allure_testing"
+  }, {
+    "name" : "suite",
+    "value" : "test_make_report"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-E0K5IFC"
+  }, {
+    "name" : "thread",
+    "value" : "8236-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "allure_testing.test_make_report"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dd852cad5081cc3b.json",
+  "parameterValues" : [ ]
+}

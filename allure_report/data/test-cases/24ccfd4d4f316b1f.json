@@ -1,0 +1,367 @@
+{
+  "uid" : "24ccfd4d4f316b1f",
+  "name" : "test_go_to_login_page_register_and_find_success_message",
+  "fullName" : "allure_testing.test_make_report#test_go_to_login_page_register_and_find_success_message",
+  "historyId" : "cd1da8a9508702d63ebb6b42f2ba65f9",
+  "time" : {
+    "start" : 1576329916968,
+    "stop" : 1576329930163,
+    "duration" : 13195
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1576329910479,
+      "stop" : 1576329916968,
+      "duration" : 6489
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a1ecdaa40d077109",
+      "name" : "stdout",
+      "source" : "a1ecdaa40d077109.txt",
+      "type" : "text/plain",
+      "size" : 49
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1576329930166,
+      "stop" : 1576329933100,
+      "duration" : 2934
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "allure_testing"
+  }, {
+    "name" : "suite",
+    "value" : "test_make_report"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-E0K5IFC"
+  }, {
+    "name" : "thread",
+    "value" : "9612-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "allure_testing.test_make_report"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c37cdce98f9707db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576329705558,
+        "stop" : 1576329721159,
+        "duration" : 15601
+      }
+    }, {
+      "uid" : "1305753523b5432b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576328182962,
+        "stop" : 1576328196706,
+        "duration" : 13744
+      }
+    }, {
+      "uid" : "86f7a87b7499cab1",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'browser' referenced before assignment",
+      "time" : {
+        "start" : 1576327299357,
+        "stop" : 1576327299357,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fbe87cfa5f3ab96e",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'browser' referenced before assignment",
+      "time" : {
+        "start" : 1576327292477,
+        "stop" : 1576327292477,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a294cde0eabf6e2",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'browser' referenced before assignment",
+      "time" : {
+        "start" : 1576327236243,
+        "stop" : 1576327236243,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a3b97fbb6b5345fa",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'browser' referenced before assignment",
+      "time" : {
+        "start" : 1576327054053,
+        "stop" : 1576327054053,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "24f41e83fd34e4b7",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'browser' referenced before assignment",
+      "time" : {
+        "start" : 1576327034800,
+        "stop" : 1576327034800,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "29940df5b7ace56f",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'get'",
+      "time" : {
+        "start" : 1576326733762,
+        "stop" : 1576326733762,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b065a1c58aeebf18",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'get'",
+      "time" : {
+        "start" : 1576326163090,
+        "stop" : 1576326163090,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "26848420f26d3c84",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'get'",
+      "time" : {
+        "start" : 1576326158277,
+        "stop" : 1576326158277,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "89de166a062dd835",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'get'",
+      "time" : {
+        "start" : 1576326017478,
+        "stop" : 1576326017478,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1221e319dbd35ef8",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'get'",
+      "time" : {
+        "start" : 1576325971635,
+        "stop" : 1576325971635,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "df08e0ec0e7735a9",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'get'",
+      "time" : {
+        "start" : 1576325763305,
+        "stop" : 1576325763305,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "17e5b25f3f9e5769",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'get'",
+      "time" : {
+        "start" : 1576325752743,
+        "stop" : 1576325752743,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "23acdd024831f12a",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'find_element_by_id'",
+      "time" : {
+        "start" : 1576325593963,
+        "stop" : 1576325593979,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "825dadfd8d8ca969",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('self', <FixtureRequest for <Function test_go_to_login_page_register_and_find_success_message>>)",
+      "time" : {
+        "start" : 1576325557307,
+        "stop" : 1576325557307,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ac481cf7d672f382",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'find_element_by_id'",
+      "time" : {
+        "start" : 1576325372742,
+        "stop" : 1576325372742,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "dd852cad5081cc3b",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'find_element_by_id' is not defined",
+      "time" : {
+        "start" : 1576325116975,
+        "stop" : 1576325116991,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "efccf5c857dc0ac8",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'find_element_by_css_selector' is not defined",
+      "time" : {
+        "start" : 1576325055084,
+        "stop" : 1576325055084,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b8eecc16b8926086",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'find_element_by_css_selector'",
+      "time" : {
+        "start" : 1576307838486,
+        "stop" : 1576307838486,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "85e00885a8f2e293",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'find_element_by_id'",
+      "time" : {
+        "start" : 1576307797236,
+        "stop" : 1576307797236,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8d4d4611c0b17266",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'find_element_by_css_selector'",
+      "time" : {
+        "start" : 1576307736221,
+        "stop" : 1576307736236,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "7b31e9c31a49a8d4",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'find_element_by_id'",
+      "time" : {
+        "start" : 1576307649220,
+        "stop" : 1576307649220,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "65ad94c44acc259b",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'find_element_by_id'",
+      "time" : {
+        "start" : 1576307538689,
+        "stop" : 1576307538689,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "73817cecc980070d",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'find_element_by_id'",
+      "time" : {
+        "start" : 1576307485595,
+        "stop" : 1576307485595,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9aa2cd9062411ddf",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'get'",
+      "time" : {
+        "start" : 1576307419313,
+        "stop" : 1576307419313,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b5d90168505ea031",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'browser' referenced before assignment",
+      "time" : {
+        "start" : 1576307375095,
+        "stop" : 1576307375095,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d76a41a60408ac21",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'browser' referenced before assignment",
+      "time" : {
+        "start" : 1576306943376,
+        "stop" : 1576306943376,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "948293c8a4e89440",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'browser' referenced before assignment",
+      "time" : {
+        "start" : 1576306912547,
+        "stop" : 1576306912547,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "dfb22d7daad0adb7",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'browser' referenced before assignment",
+      "time" : {
+        "start" : 1576306855573,
+        "stop" : 1576306855573,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "24ccfd4d4f316b1f.json",
+  "parameterValues" : [ ]
+}

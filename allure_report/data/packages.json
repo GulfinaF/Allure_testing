@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "allure_testing.test_make_report",
+    "children" : [ {
+      "name" : "test_go_to_login_page_register_and_find_success_message",
+      "uid" : "24ccfd4d4f316b1f",
+      "parentUid" : "dd61233492727c5fc7589ae488c77f14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576329916968,
+        "stop" : 1576329930163,
+        "duration" : 13195
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "allure_testing.test_make_report"
+  } ]
+}

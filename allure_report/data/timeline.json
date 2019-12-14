@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-E0K5IFC",
+    "children" : [ {
+      "name" : "9612-MainThread",
+      "children" : [ {
+        "name" : "test_go_to_login_page_register_and_find_success_message",
+        "uid" : "24ccfd4d4f316b1f",
+        "parentUid" : "b9cf72e91e43433258b5a066f77b1ded",
+        "status" : "passed",
+        "time" : {
+          "start" : 1576329916968,
+          "stop" : 1576329930163,
+          "duration" : 13195
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b9cf72e91e43433258b5a066f77b1ded"
+    } ],
+    "uid" : "aa8adb2762e1d758253fd07b4154aaa1"
+  } ]
+}

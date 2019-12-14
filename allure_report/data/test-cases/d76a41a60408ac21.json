@@ -1,0 +1,88 @@
+{
+  "uid" : "d76a41a60408ac21",
+  "name" : "test_go_to_login_page_register_and_find_success_message",
+  "fullName" : "allure_testing.test_make_report#test_go_to_login_page_register_and_find_success_message",
+  "historyId" : "cd1da8a9508702d63ebb6b42f2ba65f9",
+  "time" : {
+    "start" : 1576306943376,
+    "stop" : 1576306943376,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "UnboundLocalError: local variable 'browser' referenced before assignment",
+  "statusTrace" : "request = <SubRequest 'browser' for <Function test_go_to_login_page_register_and_find_success_message>>\n\n    @pytest.fixture(scope=\"function\")\n    def browser(request):\n        browser_name = request.config.getoption(\"browser\")\n        if browser_name == \"chrome\":\n            print(\"\\nstart chrome browser for test..\")\n            browser = webdriver.Chrome()\n            browser.maximize_window()\n        elif browser_name == \"firefox\":\n            print(\"\\nstart firefox browser for test..\")\n            browser = webdriver.Firefox()\n            browser.maximize_window()\n        else:\n            print(\"Browser {} still is not implemented\".format(browser_name))\n>       browser.quit()\nE       UnboundLocalError: local variable 'browser' referenced before assignment\n\nconftest.py:41: UnboundLocalError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1576306943376,
+      "stop" : 1576306943376,
+      "duration" : 0
+    },
+    "status" : "broken",
+    "statusMessage" : "UnboundLocalError: local variable 'browser' referenced before assignment\n",
+    "statusTrace" : "  File \"c:\\users\\user\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pluggy\\callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"c:\\users\\user\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\_pytest\\fixtures.py\", line 918, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"c:\\users\\user\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\_pytest\\fixtures.py\", line 778, in call_fixture_func\n    res = fixturefunc(**kwargs)\n  File \"C:\\Users\\User\\environments\\allure_testing\\conftest.py\", line 41, in browser\n    browser.quit()\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "UnboundLocalError: local variable 'browser' referenced before assignment",
+    "statusTrace" : "request = <SubRequest 'browser' for <Function test_go_to_login_page_register_and_find_success_message>>\n\n    @pytest.fixture(scope=\"function\")\n    def browser(request):\n        browser_name = request.config.getoption(\"browser\")\n        if browser_name == \"chrome\":\n            print(\"\\nstart chrome browser for test..\")\n            browser = webdriver.Chrome()\n            browser.maximize_window()\n        elif browser_name == \"firefox\":\n            print(\"\\nstart firefox browser for test..\")\n            browser = webdriver.Firefox()\n            browser.maximize_window()\n        else:\n            print(\"Browser {} still is not implemented\".format(browser_name))\n>       browser.quit()\nE       UnboundLocalError: local variable 'browser' referenced before assignment\n\nconftest.py:41: UnboundLocalError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7c95d265c6d574e6",
+      "name" : "stdout",
+      "source" : "7c95d265c6d574e6.txt",
+      "type" : "text/plain",
+      "size" : 40
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "allure_testing"
+  }, {
+    "name" : "suite",
+    "value" : "test_make_report"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-E0K5IFC"
+  }, {
+    "name" : "thread",
+    "value" : "8400-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "allure_testing.test_make_report"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d76a41a60408ac21.json",
+  "parameterValues" : [ ]
+}
